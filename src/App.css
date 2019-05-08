@@ -1,0 +1,35 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+html,
+body,
+#app {
+  height: 100%;
+  background-color: #dadde1;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3333;
+  -webkit-font-smoothing: antialiased !important; /* Deixa fonte menos pixelizada, mais bonita no chrome */
+}
+
+#main-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#main-container ul {
+  margin: 30px 0;
+  list-style: none;
+}
+#main-container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

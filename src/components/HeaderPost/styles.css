@@ -1,0 +1,20 @@
+.img-box {
+  float: left;
+  margin-right: 10px;
+}
+.profile-img {
+  border-radius: 50%;
+  max-width: 80px;
+}
+.personal-data {
+  padding: 20px;
+  min-height: 100px;
+  border-bottom: 1px solid #f5f5f5;
+  font-weight: bold;
+}
+.personal-data h4 {
+  color: grey;
+}
+.personal-data small {
+  color: darkgrey;
+}
